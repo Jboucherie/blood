@@ -25,7 +25,6 @@ app.controller('SplashController', ['$routeParams', '$scope', function($routePar
             elementClick: function(e) {$scope.$apply();}
             }
           },
-        callback: function(e){console.log('! callback !')}
       }
     };
 
