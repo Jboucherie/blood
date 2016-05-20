@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container events-page">
   <div class="panel-body events-panel">
     <p> Hey! There's an event happening at </p><h2><a href="hospital/profile/{{EventCtrl.event.hospital.id}}">{{EventCtrl.event.hospital.name}}</h2></a>
     <p>And it's happening on</p>
@@ -7,7 +7,7 @@
     <p> And all these cool people are going</p>
       <div class="donor" ng-repeat="donor in EventCtrl.event.donors">
         <img ng-src="{{donor.photo}}" alt="Profile Photo">
-        <h4>{{donor.name}}</h4>
+        <h4><a href="profile/{{donor.id}}">{{donor.name}}</a></h4>
       </div>
     </div>
     <button type="button" class="btn btn-lg profile-button" data-toggle="modal" data-target="#confirm-modal">Do you wanna join them?</button>

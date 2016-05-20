@@ -794,14 +794,10 @@ rzslider .rz-pointer, rzslider .rz-bar.rz-selection {
 /* Events Page Styling */
 
 .events-panel{
-  margin: 20px;
+  font-family: 'Open Sans';
+  margin-bottom: 20px;
   text-align: center;
   color:white;
-}
-
-.events-panel  {
-  margin: 5px;
-  font-family: 'Open Sans';
 }
 
 .events-panel h3 {
@@ -1122,11 +1118,11 @@ rzslider .rz-pointer, rzslider .rz-bar.rz-selection {
 
 /* Get stuff off the navbars back already, jeez. */
 
-#donor-login, #donor-signup, #hospital-login, #hospital-signup {
+#donor-login, #donor-signup, #hospital-login, #hospital-signup{
   padding-top: 100px;
 }
 
-.hospital-profile, .profile, .map-page, .calendar, .stocks, .blood-buddy {
+.hospital-profile, .profile, .map-page, .calendar, .stocks, .blood-buddy, .events-page {
   padding-top: 70px;
 }
 
